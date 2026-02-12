@@ -1,0 +1,18 @@
+{
+    "name": "libxc-cxx-fortran",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "ms-vscode.cmake-tools",
+                "ms-vscode.makefile-tools",
+                "fortran-lang.linter-gfortran",
+                "fortran-lang.fortran",
+                "ms-vsliveshare.vsliveshare"
+            ]
+        }
+    }
+}
